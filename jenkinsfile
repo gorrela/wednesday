@@ -1,6 +1,6 @@
 node {
     stage('Gitclone') {
-	    git credentialsId: '5a3679d6-8746-4237-a6f3-04afb255b728', url: 'https://github.com/gorrela/ks.git'
+	    git credentialsId: 'b6b4a439-d719-4024-835f-d4072dee0a22', url: 'https://github.com/gorrela/ks.git'
 	     
     }
     stage('Maven version') {
