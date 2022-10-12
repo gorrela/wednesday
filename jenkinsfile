@@ -32,7 +32,11 @@ node {
      stage('Maven Deploy') {
        sh 'mvn deploy'
      }
-	
+    
+    stage ('Test')
+    {
+    Test
+    }
 	
 }
 
